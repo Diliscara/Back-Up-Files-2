@@ -1,0 +1,57 @@
+#KShaney code (change the colors)
+body{
+padding:0px;
+margin:0px;
+background-color:fff;
+color: #000;  //black 000000
+}
+
+html{
+	font-family:sans-serif;  font-size: 14px;
+}
+
+body{margin:0;
+background-color:#ddd;
+color:#0000ff;
+}
+
+pre{
+	font-family:sans-serif;
+		font-size:18px;
+		background-color:#70bbbb;
+		color:#800bbbb;
+}
+
+a.slink {
+display:inline-block;
+font-family:sans-serif;
+font-size: 18px;
+background-color:#70bbbb;
+color:#fff;
+}
+
+a.slink:hover {
+display:inline-block;
+font-family:sans-serif;
+font-size: 18px;
+background-color:#007600;
+color:#00ff00;
+}
+
+a.menu{
+display:inline-block;
+font-family:sans-serif;
+font-size: 18px;
+background-color:#000;
+color:#fff;
+border-style: solid;
+border-color: red;
+padding: 5px 5px 5px 5px;
+border-width: 5px 5px 5px 5px;
+
+}
+
+a.menu:hover {
+font-family:sans-serif;
+	color:#0000ff;
+}
