@@ -1,0 +1,62 @@
+body {
+	background-image: url("Calming2.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+	opacity: 0.8;
+	filter: alpha(opacity=50);
+	transition: width 2s, height 2s, transform 2s;
+}
+
+img:hover {
+	width: 300px;
+	height: 300px;
+	transform: ;
+	opacity: 1.0;
+}
+
+a.slink {
+display:inline-circle;
+background-color: rgba(254,0,16,0);
+}
+
+navlist {
+	position: relative;
+}
+
+navlist li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	top: 0;
+}
+
+navlist li, navlist a {
+	height: 44px;
+	display: block;
+}
+
+.circle-container {
+    position: relative;
+    width: 24em;
+    height: 24em;
+    padding: 2.8em;
+    /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
+    border: dashed 1px;
+    border-radius: 50%;
+    margin: 1.75em auto 0;
+}
+.circle-container img { display: block; width: 100%; }
+.deg0 { transform: translate(12em); } /* 12em = half the width of the wrapper */
+.deg10 { transform: rotate(10deg) translate(12em) rotate(-10deg); }
+.deg20 { transform: rotate(20deg) translate(12em) rotate(-20deg); }
+.deg180 { transform: translate(-12em); }
+.deg225 { transform: rotate(225deg) translate(12em) rotate(-225deg); }
+.deg315 { transform: rotate(315deg) translate(12em) rotate(-315deg); }

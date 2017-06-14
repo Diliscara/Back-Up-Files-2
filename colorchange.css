@@ -1,0 +1,31 @@
+	body {
+	 animation: colorchange 3s; /*animation-name followed by duration in seconds*/
+	 /* you could also use milliseconds (ms) or something like 2.5s */
+		-webkit-animation: colorchange 3s; /* Chrome and Safari */
+    animation-direction: normal;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: colorchange;
+    animation-timing-function: ease;
+		}
+		
+		@keyframes colorchange
+		{
+		 0% 	{background: white;}
+		 25%	{background: grey;}
+		 50%	{background: black;}
+		 75%	{background: grey;}
+		 100%	{background: white;}
+		 }
+		 
+		 @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+		 {
+		  0%	{background: green;}
+		 25%	{background: gold;}
+		 50%	{background: green;}
+		 75%	{background: gold;}
+		 100%	{background: green;}
+		 }
+		 
+}
+		
